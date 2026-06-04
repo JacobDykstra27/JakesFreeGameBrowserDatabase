@@ -107,6 +107,7 @@ A table of data is most easily understood by comparing it to a spread sheet with
 
 ### Crow’s Foot Entity Relationship Diagram 
 The Crow’s Foot ERD is a way to visualize tables and how they relate to one another. The ERD has all the same tables and columns as above but also shows what tables are related and how. PK and FK are both represented here but CK is represented by the combination of PK and FK. This Database is comprised of only “One to Many” relationships and a relationship is visualized by the lines and symbols connecting each table. The two short lines intersecting the longer line is a “one and only one” symbol. This Means that the PK for a row of data on that table will only be listed one time. The circle with 3 lines coming out from it is what gives the ERD its name “crow’s foot”. That symbol means “zero to many”. The PK mentioned before can be listed in this table zero or many times as a FK. For example the Users table is related to the Friends table. The symbol on the Users table is “one and only one” because each user gets a Unique UserId that will only be in that table one time. The symbol on the Friends table is “zero or many” because a user’s UserId will be in that table one time for every friend they have. If the user has zero friends then their id will not be in that table, and if they have many friends then it will be in the table many times.
+<img width="969" height="1026" alt="image" src="https://github.com/user-attachments/assets/623d7697-1929-4c40-8dea-0c289d0f22f6" />
 
 
 ### Stored Procedures
